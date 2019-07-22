@@ -43,7 +43,7 @@
             $name = $_POST['name'];
             $email = $_POST['email'];
             $job = $_POST['job'];
-            $date = date("YY-MM-DD");
+            $date = date("y-m-d");
             // Insert data
             $sql_insert = "INSERT INTO [dbo].[Registration] (name, email, job, date) 
                         VALUES (?, ?, ?, ?)";
